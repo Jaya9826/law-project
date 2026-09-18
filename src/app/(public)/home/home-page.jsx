@@ -21,7 +21,7 @@ const slides = [
         for <span className="text-[#dfab31]">Your Rights</span>
       </>
     ),
-    description: "Providing legal representation and counsel to safeguard your rights. Navigate complex legal challenges, and pursue justice with unwavering dedication.",
+    description: "Providing legal representation and counsel to safeguard your rights. Navigate complex legal challenges, and pursue justice with unwavering dedication..",
     primaryBtn: "Explore Our Services",
     link: "/appointment"
   },
@@ -261,7 +261,7 @@ function FeaturePillarCard({ item, index }) {
     >
       {/* Subtle top amber light highlight */}
       <div className="absolute top-0 inset-x-0 h-[1.5px] bg-gradient-to-r from-transparent via-[#dfab31]/40 to-transparent group-hover:via-[#dfab31] transition-all duration-500" />
-      
+
       {/* Ambient warm orange corner glow */}
       <div className="absolute -top-10 -right-10 w-28 h-28 bg-[#dfab31]/8 rounded-full blur-2xl group-hover:bg-[#dfab31]/18 transition-all duration-500 pointer-events-none" />
 
@@ -344,8 +344,8 @@ function LawyerTeam3DCard({ member, index }) {
             : 'transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.6s ease-out, border-color 0.6s ease-out',
         }}
         className={`group flex flex-col justify-between text-center bg-white border transition-all duration-500 p-4 pb-7 rounded-2xl select-none ${isHovered
-            ? 'border-[#dfab31] shadow-[0_28px_65px_-12px_rgba(0,0,0,0.18),0_0_35px_rgba(223,171,49,0.22)]'
-            : 'border-zinc-200/80 shadow-[0_10px_35px_rgba(0,0,0,0.06)]'
+          ? 'border-[#dfab31] shadow-[0_28px_65px_-12px_rgba(0,0,0,0.18),0_0_35px_rgba(223,171,49,0.22)]'
+          : 'border-zinc-200/80 shadow-[0_10px_35px_rgba(0,0,0,0.06)]'
           }`}
       >
         {/* Photo Container with 3D Pop Out & Rounded Corners */}
@@ -742,7 +742,7 @@ export default function HomePage() {
 
       {/* 4. CONSULTATION & CONTACT BANNER (EXACT REFERENCE DESIGN - COMPACT HEIGHT) */}
       <section className="relative overflow-hidden py-8 sm:py-9 lg:py-10 z-20 bg-[#fbf8f2] border-b border-zinc-200/80">
-        
+
         {/* Neoclassical Courthouse Pillars Watermark Spanning Pure Right Side */}
         <div className="absolute right-0 top-0 bottom-0 w-full lg:w-[55%] xl:w-[50%] pointer-events-none overflow-hidden select-none">
           <div className="relative w-full h-full opacity-45 mix-blend-multiply">
@@ -759,7 +759,7 @@ export default function HomePage() {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-10 relative z-10">
-          
+
           {/* Left Column: Tagline, Heading & Description */}
           <div className="space-y-2.5 text-left max-w-2xl">
             {/* Tagline with Gold Line */}
@@ -785,7 +785,7 @@ export default function HomePage() {
 
           {/* Right Column: Two Action Buttons & Trust Badges */}
           <div className="flex flex-col items-start lg:items-end gap-4 shrink-0 w-full lg:w-auto">
-            
+
             {/* Button Pair */}
             <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 w-full sm:w-auto">
               {/* Primary Golden Appointment Button */}
@@ -859,7 +859,7 @@ export default function HomePage() {
 
       {/* 5. WELCOME SECTION (SPLIT BACKGROUND: HALF BLACK, HALF WHITE - COMPACT HEIGHT) */}
       <section id="about" className="relative py-14 sm:py-16 px-6 md:px-12 bg-white overflow-hidden scroll-mt-20">
-        
+
         {/* Top Dark Background (Half Black) */}
         <div className="absolute top-0 inset-x-0 h-[60%] sm:h-[62%] bg-[#0e0d10]" />
         <div className="absolute top-10 left-1/3 w-96 h-96 bg-[#dfab31]/5 rounded-full blur-[140px] pointer-events-none" />
